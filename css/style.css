@@ -213,7 +213,7 @@ button {
 .header_section {
   width: 100%;
   float: left;
-  background-image: url(../images/back.jpg);
+  background-image: url(../images/oh1.jpg);
   height: auto;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -238,7 +238,7 @@ button {
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-  padding: 30px 20px 10px 20px;
+  padding: 10px 20px 10px 20px;
   font-size: 17px;
   color: #fefefd;
   text-transform: uppercase;
@@ -249,7 +249,7 @@ button {
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
   color: #fefefd;
-  background-color: #f01c1c;
+  background-color: #cd853f;
 }
 
 .navbar-light .navbar-nav .active > .nav-link,
@@ -257,12 +257,13 @@ button {
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .show > .nav-link {
   color: #fefefd;
-  background-color: #f01c1c;
+  background-color: #7b3f00;
 }
 
 .navbar-brand {
   margin: 0px;
   float: right;
+  margin-top: 20px;
 }
 
 .navbar {
@@ -295,11 +296,11 @@ button {
   color: #f01c1c;
 }
 
-.navbar-brand {
-  margin-top: 20px;
-}
-
 /* header section end */
+
+.header_sectionheader_bg {
+  background-image: url(../images/oh1.jpg);
+}
 
 /* banner section start */
 
@@ -436,7 +437,13 @@ button {
 /* coffee section end */
 
 /* client section start */
-
+/* .iconac{
+  width:100px;
+} */
+.opi {
+  width: 35px;
+  padding-left: 10px;
+}
 .client_section {
   width: 100%;
   float: left;
@@ -788,6 +795,7 @@ textarea#comment.update_mail::placeholder {
   color: #fefefd;
   text-align: center;
   margin-left: 0px;
+  margin-right: opx;
   font-family: "Poppins", sans-serif;
 }
 
