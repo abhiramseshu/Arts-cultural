@@ -389,16 +389,14 @@ button {
 
 #banner_slider a.carousel-control-prev {
   left: 0px;
-  top: 411px;
-  right: 60px;
+  top: 450px;
+  right: 9000px;
 }
 
 #banner_slider a.carousel-control-next {
   right: 0px;
-  top: 411px;
-  left: 60px;
-  color: #fefefd;
-  background-color: #f01c1c;
+  top: 450px;
+  left: 900px;
 }
 
 #banner_slider .carousel-control-next,
@@ -407,18 +405,8 @@ button {
   height: 55px;
   opacity: 1;
   font-size: 16px;
-  color: #4a4949;
-  background-color: #efefef;
   margin: 0 auto;
   text-align: center;
-}
-
-#banner_slider .carousel-control-next:focus,
-#banner_slider .carousel-control-next:hover,
-#banner_slider .carousel-control-prev:focus,
-#banner_slider .carousel-control-prev:hover {
-  color: #fefefd;
-  background-color: #f01c1c;
 }
 
 .banner_img {
@@ -738,7 +726,7 @@ textarea#comment.massage-bt::placeholder {
 .footer_social_icon li a {
   float: left;
   padding: 5px 10px;
-  background-color: #fff;
+  background-color: #ffffff;
   color: #1d1d1d;
   border-radius: 100%;
   font-size: 19px;
@@ -749,7 +737,7 @@ textarea#comment.massage-bt::placeholder {
 }
 
 .footer_social_icon li a:hover {
-  background-color: #ffffff;
+  background-color: #000000;
   color: #f01c1c;
 }
 
@@ -818,9 +806,8 @@ textarea#comment.update_mail::placeholder {
   float: left;
   font-size: 16px;
   color: #fefefd;
-  text-align: center;
   margin-left: 0px;
-  margin-right: opx;
+  margin-right: 0px;
   font-family: "Poppins", sans-serif;
 }
 
@@ -831,7 +818,9 @@ textarea#comment.update_mail::placeholder {
 .copyright_text a:hover {
   color: #252525;
 }
-
+.oporwhat{
+  margin-left:  600px;
+}
 /* copyright section end */
 
 .margin_top90 {
